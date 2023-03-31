@@ -3,7 +3,7 @@ import React, { useState, useCallback, useMemo, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
-import { nanoid } from "nanoid";
+import { nanoid } from "@reduxjs/toolkit";
 import Button from "../Button/Button";
 import ImageUpload from "../Common/ImageUpload";
 import SectionTitle from "../Common/SectionTitle";
