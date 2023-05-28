@@ -38,7 +38,7 @@ import Button from "../../components/Button/Button";
 import ClientPlusIcon from "../../components/Icons/ClientPlusIcon";
 import InvoiceIcon from "../../components/Icons/InvoiceIcon";
 import PlusCircleIcon from "../../components/Icons/PlusCircleIcon";
-import { nanoid } from "nanoid";
+import { nanoid } from "@reduxjs/toolkit";
 import DeleteIcon from "../../components/Icons/DeleteIcon";
 import {
   getSelectedProduct,

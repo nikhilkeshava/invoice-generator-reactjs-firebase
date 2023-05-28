@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import localforage from "localforage";
-import { nanoid } from "nanoid";
+import { nanoid } from "@reduxjs/toolkit";
 import { CLIENTS_KEY, CLIENT_FORM_KEY } from "../constants/localKeys";
 
 const initialState = {
